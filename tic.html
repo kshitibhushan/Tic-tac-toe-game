@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>TIC-TAC-TOE</h1><br>
+        <p id="ins">Game starts by justby a tap on box <br>First player starts as <b>player x</b> <br>second player starts as <b>player O</b></p>
+        <div class="row">
+            <input type="text" id="b1" onclick="func_1() ; func()" readonly>
+            <input type="text" id="b2" onclick="func_2() ; func()" readonly>
+            <input type="text" id="b3" onclick="func_3() ; func()" readonly>
+        </div>
+        <div class="row">
+            <input type="text" id="b4" onclick="func_4() ; func()" readonly>
+            <input type="text" id="b5" onclick="func_5() ; func()" readonly>
+            <input type="text" id="b6" onclick="func_6() ; func()" readonly>
+        </div>
+        <div class="row">
+            <input type="text" id="b7" onclick="func_7() ; func()" readonly>
+            <input type="text" id="b8" onclick="func_8() ; func()" readonly>
+            <input type="text" id="b9" onclick="func_9() ; func()" readonly>
+        </div>
+        <button id="reset" onclick="func_()">RESET</button>
+        <div id="win">
+
+            <h3 id="turn"></h3>
+        </div>
+
+    </div>
+</body>
+<script src="tic.js"></script>
+
+</html>
